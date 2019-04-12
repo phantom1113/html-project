@@ -1,0 +1,116 @@
+.title-feature-products h3 {
+	font-size: 24px;
+}
+.dicribe-feature-products p {
+	font-size: 14px;
+}
+.price-feature-products h3 {
+	font-size: 24px;
+}
+.bought-button a{
+	background-color: orange;
+	padding: 10px 60px;
+	border-radius: 5px;
+	color: white;
+}
+.bought-button:hover a{
+	background-color: #d89c2e;
+	color: white;
+	text-decoration: none;
+}
+.left-content-1{
+	background-color: white;
+}
+@media (max-width: 775px){
+	.left-content-1{
+		padding: 0px!important;
+	}
+	.right-content-1{
+		padding-left: 50px!important ;
+		padding-right: 100px!important ;
+		padding-top: 20px!important ;
+	}
+	.title-feature-products{
+		margin: 20px 0px;
+	}
+	.dicribe-feature-products{
+		margin: 20px 0px;
+		line-height: 2;
+	}
+	.price-feature-products{
+		margin: 20px 0px;
+	}
+	.bought-button{
+		margin: 50px 0px;
+	}
+}
+@media (min-width: 776px){
+	.left-content-1{
+		padding-left: 15px!important;
+	}
+	.right-content-1{
+		padding-left: 50px!important ;
+		padding-right: 100px!important ;
+		padding-top: 20px!important ;
+	}
+	.title-feature-products{
+		margin: 20px 0px;
+	}
+	.dicribe-feature-products{
+		margin: 20px 0px;
+		line-height: 2;
+	}
+	.price-feature-products{
+		margin: 20px 0px;
+	}
+	.bought-button{
+		margin: 50px 0px;
+	}
+}
+@media (min-width: 1200px){
+	.left-content-1{
+		padding: 0px!important;
+	}
+	.right-content-1{
+		padding-left: 50px!important ;
+		padding-right: 100px!important ;
+		padding-top: 20px!important ;
+	}
+	.title-feature-products{
+		margin: 20px 0px;
+	}
+	.dicribe-feature-products{
+		margin: 20px 0px;
+		line-height: 2;
+	}
+	.price-feature-products{
+		margin: 20px 0px;
+	}
+	.bought-button{
+		margin: 50px 0px;
+	}
+}
+@media (min-width: 1600px){
+	.left-content-1{
+		padding: 0px!important;
+	}
+	.right-content-1{
+		padding-left: 150px!important ;
+		padding-right: 400px!important ;
+		padding-top: 100px!important ;
+		padding-bottom:200px!important ;
+	}
+	.title-feature-products{
+		margin: 50px 0px;
+	}
+	.dicribe-feature-products{
+		margin: 50px 0px;
+		line-height: 2;
+	}
+	.price-feature-products{
+		margin: 50px 0px;
+	}
+	.bought-button{
+		margin: 50px 0px;
+	}
+}
