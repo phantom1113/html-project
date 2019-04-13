@@ -1,0 +1,106 @@
+body {
+	background-color:#fcfcfc!important;
+}
+.sale-badge {
+	background-color: #fc3;
+	color: white;
+	padding: 6px 12px;
+	letter-spacing: 1.4px;
+	user-select: none;
+	position: relative;
+	border-radius: 3px;
+}
+
+.sale-badge:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px;
+	position: absolute;
+	top: 100%;
+	left: 10%;
+	border-color: transparent;
+	border-top-color: #fc3;
+	border-left-color:#fc3;
+}
+.list-featured-products-container {
+	padding-bottom: 20px;
+	background-color: white;
+	transition: 0.2s all ease;
+}
+.list-featured-products-container:hover {
+	-webkit-box-shadow: 1px 1px 20px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 20px -10px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 20px -10px rgba(0,0,0,0.75); 
+}
+.list-featured-products-details{
+	position: relative;
+}
+.list-featured-products-details h3{
+	color: black;
+	font-size: 24px;
+}
+.add-cart-more{
+	position: absolute;
+	bottom: 4%;
+	left: 75%;
+	font-size: 23px;
+}
+.star-rating{
+	font-size: 12px;
+	padding-top: 15px;
+}
+.list-featured-products-details{
+	padding: 20px 10px;
+}
+.list-featured-products-details h3{
+	padding-bottom: 15px;
+}
+.price-featured-products span{
+	padding-right: 5px;
+}
+.add-cart-more a {
+	padding-right: 5px;
+}
+.badge-container{
+	position: absolute;
+	left: 7%;
+	top: 5%;
+}
+.list-featured-products-container a {
+	color: #999;
+	font-size: 15px;
+}
+.list-featured-products-container:hover a {
+	color: #999;
+	text-decoration: none;
+}
+.add-cart-more-1{
+	color:black!important;
+}
+.add-cart-more-2{
+	color: black!important;
+}
+.add-cart-more-1:hover{
+	color: #479fea!important;
+}
+.add-cart-more-2:hover{
+	color: #479fea!important;
+}
+.img-featured-products{
+	text-align: center;
+}
+.img-featured-products img:last-child {
+  display: none;  
+  text-align: center;
+}
+.img-featured-products:hover img:last-child {
+  display: inline-block;  
+  text-align: center;
+
+}
+.img-featured-products:hover img:first-child {
+  display: none;
+  text-align: center;
+}
