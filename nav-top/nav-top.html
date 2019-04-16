@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nav top</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+
+  $(window).scroll(function() {
+  	if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+  	{
+  		$('.opaque-navbar').addClass('opaque');
+  	} else {
+  		$('.opaque-navbar').removeClass('opaque');
+  	}
+  });
+	</script>
+</head>
+<body>
+	<!--
+********************************************************************
+* Responsive Transparent Navbar
+********************************************************************
+-->
+<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain">
+				<span class="glyphicon glyphicon-chevron-right" style="color:white;"></span>
+
+			</button>
+			<a class="navbar-brand" href="#">Your Company</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navMain">
+			<ul class="nav navbar-nav pull-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services and Pricing</a></li> 
+				<li><a href="#">Contact Us</a></li> 
+			</ul>
+		</div>
+	</div>
+</div>
+<section class="banner">
+	<div class="container title-nav">
+		<div class="row">
+			<h1>Modern Furniture</h1>
+			<p>We are creators of high quality Indoor and Outdoor Furniture</p>
+			<div>
+				<button class="btn btn-warning">Browse Collection</button>
+				<button class="btn btn-primary">Visit our Showrooms</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<div class="container">
+	<div class="row" style="height:800px;">
+		<div class="cold-md-12">
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+			<h2>Page Content</h2>
+			<p>This is an example of a navbar that is initially opaque, then turns into a solid background when user scrolls down the page.</p>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
