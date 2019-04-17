@@ -1,0 +1,63 @@
+
+.demo-a {
+	text-decoration: none;
+}
+.demo-a:hover {
+	text-decoration: none;
+}
+.box-wrapper{
+	padding: .8rem;
+}
+.album-cover{
+	width: 300px;
+	height: 300px;
+	background: #ddd;
+	background-size: cover;
+	background-position: center;
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+	font-size: 25px;
+}
+.album-cover .overlay {
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0,0,0,0.695098107602416) 0%, rgba(136,138,138,0.3673670151654411) 40%, rgba(231,238,240,0) 100%);
+	display: flex;
+	align-items: flex-end;
+	padding: 1.5rem;
+	box-sizing: border-box;
+
+}
+.border-bottom-banner {
+	padding-bottom: 0.3rem;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+
+}
+.border-bottom-banner:before {
+
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 1px;
+  width   : 15%;  /* or 100px */
+  border-bottom:2px solid #fa0;
+  transition: all .3s ease;
+
+}
+.album-cover:hover .border-bottom-banner:before {
+
+  content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  height  : 1px;
+  width   : 25%;  /* or 100px */
+  border-bottom:2px solid #fa0;
+
+}
+.album-cover:hover {
+	transition: all .3s ease;
+	opacity: 0.9;
+}

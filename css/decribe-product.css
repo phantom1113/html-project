@@ -1,0 +1,55 @@
+
+.demo1 {
+	background-color: transparent;
+	margin-bottom: 1.5em;
+}
+.left {
+	background-color:white; 
+}
+.right {
+	background-color: white;
+}
+.title-right h4 {
+	line-height: 1.5;
+	font-size: 14px;
+}
+.title-right h3 {
+	font-size: 24px;
+}
+.button-right{
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+.button-inner{
+	background-color: #35ceb2;
+	border-radius: 3px;
+	padding: 5px;
+}
+.button-inner:hover{
+	background-color: #149c83;
+	cursor: pointer;
+	
+}
+.button-inner:hover a{
+	text-decoration: none;
+	color: white;
+}
+.button-inner a{
+	color: white;
+}
+@media (min-width: 776px){
+	.button-right{
+		width: 99%;
+		margin-top: 20px;
+	}
+}
+@media (min-width: 1200px){
+	.title-right{
+		margin-top: 30px;
+	}
+	.button-right{
+		margin-top: 50px;
+		width: 95%;
+	}
+}
+
